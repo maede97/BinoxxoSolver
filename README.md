@@ -3,7 +3,7 @@ A simple Python Script for Solving Binoxxos.
 
 ## How to use
 1. Install Python
-2. Run "`python BinoxxoSolver.py`"
+2. Run `python BinoxxoSolver.py`
 3. Enjoy
 
 ## General Informations
