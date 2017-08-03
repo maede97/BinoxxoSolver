@@ -1,13 +1,3 @@
-"""
-TODO:
-
-- keine Rätsel mit mehr als 1 Lösung ausgeben
-- Wie schwierig war ein Rätsel? -> Ausgabe einer Art Zählmethode
-- Eingabe: Ein Rätsel eingeben (Buttons mit Text-Wechsel & Schieberegler)
-- Eingabe über Webcam (OCR)
-- progressbar bei Generieren (wie viele Punkte schon generiert wurden)
-"""
-
 from tkinter import *
 from random import randint
 import tkinter.messagebox
