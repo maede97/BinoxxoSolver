@@ -363,7 +363,7 @@ def writeHash(buttons):
     while readHash(hash_)!=None:
         hash_ = ""
         for i in range(4):
-            hash_+=chars[randint(0,len(binoxxo_chars)-1)]
+            hash_+=binoxxo_chars[randint(0,len(binoxxo_chars)-1)]
     original = []
     data = []
     siz = int(sqrt(len(buttons)))
@@ -428,7 +428,7 @@ b2 = Button(f2, text=translations["button_solver"],height=2,width=30, command=Bu
 e = Entry(f2)
 l = Label(f2,text=translations["entry_label_data"])
 
-slide1 = Scale(f3, from_=2, to=14, resolution=2, label=translations["slider_size"],orient="horizontal",command=(lambda x: slide2.configure(to=slide1.get()**2)))
+slide1 = Scale(f3, from_=2, to=20, resolution=2, label=translations["slider_size"],orient="horizontal",command=(lambda x: slide2.configure(to=slide1.get()**2)))
 slide1.set(6)
 slide2 = Scale(f3, from_=1, to=(slide1.get())**2, resolution=1, label=translations["slider_amount"],orient="horizontal")
 slide2.set(10)
